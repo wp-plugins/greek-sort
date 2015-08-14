@@ -42,7 +42,7 @@ Yes, but only the following:
 
 
 = Will this slow down my website? =
-No. This plugin is light. Itwdoesn't run on the front-end of your website.
+No. This plugin doesn't run on the front-end of your website.
 
 
 = What if I want to write code? =
@@ -73,11 +73,12 @@ The previous two examples expand to this WP_Query:
 	$the_query = new WP_Query($args);
 ?>`
 
-This means you can't use meta_key or meta_compare with greek_sort. If you need to use meta_compare, please consider using [meta_query](https://codex.wordpress.org/Class_Reference/WP_Meta_Query) instead.
+NOTE: This means you can't use meta_key or meta_compare with greek_sort. If you need to use meta_compare, please consider using [meta_query](https://codex.wordpress.org/Class_Reference/WP_Meta_Query) instead.
 
 
 == Screenshots ==
-1. added before first submission
+1. This is the Greek Sort options page. All post types can be enabled/disabled, have their column hidden, and their language specified.
+2. This is an example posts page. The posts are automatically sorted by your selected language.
 
 == Changelog ==
 = 1.0.0 =
