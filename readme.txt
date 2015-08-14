@@ -33,7 +33,7 @@ No. When a post type is enabled that post type will automatically be sorted.
 
 = Does this add anything to my database? =
 Yes, but only the following:
-x
+
 * A custom field called "greek_sort" is added to posts for enabled post types.
 
 * These custom fields are removed when a post type is disabled.
