@@ -124,7 +124,7 @@ function getPage() {
 		<div class="center">
 			<h1><?PHP echo $NAME; ?> Settings</h1>
 			<h3>Easily Sort Posts by Greek Phonetics</h3>
-			<div>get support on the <a href="">Wordpress Plugin page</a></div>
+			<div>get support on the <a href="https://wordpress.org/support/plugin/greek-sort">Greek Sort plugin page</a></div>
 		</div>
 	</div>
 	<div class="clear"></div>
