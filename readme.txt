@@ -31,6 +31,20 @@ Enabled post types will be resorted when the "Greek Sort" page is loaded and whe
 No. When a post type is enabled that post type will automatically be sorted.
 
 
+= Does this add anything to my database? =
+Yes, but not very much.
+
+* A custom field called "greek_sort" is added to posts for enabled post types.
+
+* These custom fields are removed when a post type is disabled.
+
+* All custom fields and settings are erased when the plugin is uninstalled.
+
+
+= Will this slow down my website? =
+No. This plugin is light. Itwdoesn't run on the front-end of your website.
+
+
 = What if I want to write code? =
 Here's an example of how to use Greek Sort in your WP_Query:
 `<?php
@@ -62,20 +76,6 @@ The previous two examples expand to this WP_Query:
 This means you can't use meta_key or meta_compare with greek_sort. If you need to use meta_compare, please consider using [meta_query](https://codex.wordpress.org/Class_Reference/WP_Meta_Query) instead.
 
 
-= Does this add anything to my database? =
-Yes, but not very much.
-
-* A custom field called "greek_sort" is added to posts for enabled post types.
-
-* These custom fields are removed when a post type is disabled.
-
-* All custom fields and settings are erased when the plugin is uninstalled.
-
-
-= Will this slow down my website? =
-No. This plugin is light. Itwdoesn't run on the front-end of your website.
-
-
 == Screenshots ==
 1. added before first submission
 
@@ -93,4 +93,5 @@ Initial release.
 == Support ==
 This plugin is supported by ghcrows13 and NickIronGate. Contact us via email to submit bugs or feature requests.
 
+== Story ==
 George created this plugin during an internship at Irongate Creative. He's returned to school now, and is busy being a student, but we will continue to provide regular support.
