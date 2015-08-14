@@ -11,7 +11,7 @@ Easily sort posts by greek phonetics. Useful to sort chapters for fraternity/sor
 
 
 == Description ==
-Greek Sort can automatically sort posts from a given post type by greek phonetics. Each post type can be configured individually. When enabled, a given post types will only be sorted when a page is loaded or when a post for that post type is added, updated, or trashed. No code required.
+Greek Sort can automatically sort posts from a given post type by greek phonetics. Each post type can be configured individually. When enabled, a given post type will only be sorted when a page is loaded or when a post for that post type is added, updated, or trashed. No code required.
 
 A few other languages are available, Spanish and Russian, and more languages can be requested.
 
@@ -25,26 +25,34 @@ A few other languages are available, Spanish and Russian, and more languages can
 
 
 == Frequently Asked Questions ==
-= When do my posts get sorted? =
-Enabled post types will be resorted when a post of that post-type is created, updated, or trashed and when the "Greek Sort" settings page is loaded.
 
 
 = Do I have to write code? =
-No. When a post type is enabled that post type will automatically be sorted.
+No, coding is not required. When a post type is enabled that post type will automatically be sorted.
 
 
-= Does this add anything to my database? =
-Yes, but only the following:
+= Will this slow down my website? =
+No. This plugin doesn't run on the front-end of your website.
+
+
+= When do my posts get sorted? =
+Enabled post types will be sorted:
+
+* when a post of an enabled post-type is created, updated, or trashed
+
+* when the "Greek Sort" settings page is loaded
+
+
+= Does this add anything to my website's database? =
+Yes, but not much, and the plugin will clean up when it's deactivated or uninstalled.
+
+Here's what's added:
 
 * A custom field called "greek_sort" is added to posts for enabled post types.
 
 * These custom fields are removed when a post type is disabled.
 
 * All custom fields and settings are erased when the plugin is uninstalled.
-
-
-= Will this slow down my website? =
-No. This plugin doesn't run on the front-end of your website.
 
 
 = What if I want to write code? =
