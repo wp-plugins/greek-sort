@@ -4,7 +4,7 @@ namespace Creative {
 /*
 Plugin Name: Greek Sort
 Description: Easily sort posts by greek phonetics. Useful to sort chapters for fraternity/sorority websites.
-Version: 0.0.8
+Version: 1.0.0
 Author: Irongate Creative
 Author URI: http://irongatecreative.com
 License: GPL2
